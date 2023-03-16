@@ -6,7 +6,7 @@ public class RemoveFallenItems : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D target)
     {
-        Destroy(target);
+        Destroy(target.gameObject);
     }
 
 
